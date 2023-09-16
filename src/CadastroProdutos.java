@@ -41,6 +41,6 @@ public class CadastroProdutos {
         }
         System.out.println("Maior preço de venda é "+ maiorPrecoVenda + " do produto de código " + (int)codigoMaiorPrecoVenda + " que possui " + quantidadeMaiorPrecoVenda + " em estoque.");
         System.out.println("Média dos preços de custo " + (somaPrecoVenda/3));
-        System.out.println(mensagem);
+        System.out.println(mensagem.toUpperCase());
     }
 }
